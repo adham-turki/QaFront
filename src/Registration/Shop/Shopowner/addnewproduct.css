@@ -1,0 +1,209 @@
+/* Global Styles */
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  } */
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    flex: 0 0 240px;
+    background-color: #f5f5f5;
+    padding: 30px;
+
+  }
+  
+  .sidebar-item {
+    margin-bottom: 16px;
+  }
+  
+  .sidebar-item a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-item a:hover {
+    background-color: #FFA500;
+  }
+  
+  .sidebar-icon-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .sidebar-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #999;
+  }
+  
+  .sidebar-item span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Add Product Form Styles */
+  .app-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+
+  }
+
+  
+
+.app-bodyE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 102vh;
+  background-color: #ffff;
+}
+  
+  .app-container {
+  background-color: #fff;
+  padding: 23px;
+  border-radius: 51px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* This makes the container scrollable */
+  flex-direction: column; /* Optional: If you want the children to stack vertically */
+  max-height: 100vh; /* Ensures the container doesn't exceed the viewport height */
+}
+
+
+  
+  .form-link.back-link {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .add-product-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .form-row-addproduct {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: -16px;
+        flex-direction: column;
+}
+  
+  
+  .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    padding: 8px 12px;
+    border: 1px solid #dae1e7;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-input[type="file"] {
+    display: none;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .image-containerforProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #dae1e7;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .image-containerforProduct img {
+    max-height: 200px;
+    max-width: 141px;
+  }
+  
+  .image-containerforProduct .close-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .form-button {
+    grid-column: 1 / -1;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FF4B2B;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #FFA500;
+  }
+  
+
+  .Dolar{
+    position: absolute;
+    margin-left: -304px;
+    margin-top: -19px;
+  }
+
+
+  .form-row-addExitproduct{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+  }

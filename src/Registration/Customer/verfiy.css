@@ -1,0 +1,191 @@
+
+#code {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #FF4B2B;
+    border-radius: 5px;
+    text-align: center;
+    color: #FF4B2B;
+}
+
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-rowVerify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction:column;
+}
+.b1 {
+    border-radius: 18px;
+    border: 1px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 29px 55px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin: 30px;
+}
+
+
+.input-input {
+    font-style: italic;
+    font-variant-ligatures: no-common-ligatures;
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: oldstyle-nums;
+    font-weight: bold;
+    font-size: xx-large;
+    font-optical-sizing: auto;
+    font-kerning: auto;
+    color: rgb(255, 145, 0);
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(255, 146, 0), rgb(255, 146, 0));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+    text-align: center;
+}
+
+
+
+.confirmation-email-box p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.confirmation-email-box .email-address_cont {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.signup-page.main-container {
+    background: #f6f7f8;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.signup-page_box.confirmation-email-box {
+    max-width: 495px;
+    min-width: 380px;
+}
+
+.confirmation-email-box {
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 254px;
+    background: #fff  50% 32px no-repeat;
+    background-size: 200px auto;
+}
+
+.signup-page_box {
+    margin: 200px auto;
+    background-color: #fff;
+    max-width: 450px;
+    min-width: 380px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 17px;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.signup-page.main-container {
+    background: #f6f7f8;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.email-verification-header {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 0 16px 0;
+}
+
+
+.email-verification-header strong {
+    color: #FF9200;
+}
+
+.strong,
+strong {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .confirmation-email-box .form-rowVerify.verification-code-field {
+        margin-left: 12px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .confirmation-email-box .form-rowVerify.verification-code-field {
+        width: 330px;
+    }
+}
+
+.confirmation-email-box .form-rowVerify.verification-code-field label {
+    display: none;
+}
+
+
+
+.confirmation-email-box .form-rowVerify.verification-code-field input {
+    height: 60px;
+    width: 334px;
+    max-width: 100%;
+    font-size: 32px;
+    letter-spacing: 3.1ch;
+    padding-left: 1ch;
+    background: #fff 0 0 no-repeat;
+    border: none;
+}
+
+.confirmation-email-box .form-rowVerify.verification-code-field::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    right: 10px;
+    z-index: 5;
+}

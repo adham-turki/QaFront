@@ -1,0 +1,43 @@
+.image-rowforpreoduct{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 40px;
+}
+
+.image-containerforProduct {
+    position: relative;
+    border: 2px solid black; /* Adding a border around each image container */
+    padding: 20px; /* Optional: Adding some padding inside the border */
+    border-radius: 5px; /* Optional: Adding rounded corners to the border */
+
+}
+.image-containerforProductforview{
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid black; /* Adding a border around each image container */
+    padding: 10px; /* Optional: Adding some padding inside the border */
+    border-radius: 5px; Optional: Adding rounded corners to the border
+
+}
+.image-container1 {
+    position: relative;
+    padding: 10px; /* Optional: Adding some padding inside the border */
+    /* border-radius: 5px;  */
+    width: 20px;
+    height: 20px;
+}
+
+
+.image {
+    width: 100px; /* Set your desired image width */
+    height: 100px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: red; /* Optional: Change the color of the close icon */
+}

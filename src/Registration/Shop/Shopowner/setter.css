@@ -1,0 +1,217 @@
+/* App.css */
+
+.AppSetter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .AppSetter3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 107vh;
+    background-color: #f0f0f0;
+  }
+  
+  
+
+
+  
+  .containerSetter {
+    text-align: center;
+    width: 700px;
+    height: 600px;
+    border: .5px solid #000; /* Example border styling */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+    position: relative;
+    box-shadow: 0 .5rem 1rem hsla(44, 92%, 44%, 0.81);;
+  }
+
+  .containerSetterChangingPass{
+    text-align: center;
+    width: 700px;
+    height: 471px;
+    border: .5px solid #000; /* Example border styling */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+    position: relative;
+    box-shadow: 0 .5rem 1rem hsla(44, 92%, 44%, 0.81);;
+  }
+  .containerSetter3 {
+    text-align: center;
+    width: 900px;
+    height: 920px;
+    border: .5px solid #000; /* Example border styling */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+    position: relative;
+    box-shadow: 0 .5rem 1rem hsla(44, 92%, 44%, 0.81);;
+  }
+  
+  .containerSetter3 img {
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+    border-radius: 50%; /* Makes the border circular */
+    border: 1px solid black; /* Example border styling */
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto 10px; /* Center image horizontally and provide space below */
+  }
+
+  .containerSetter3 .imgCustomer {
+    width: 80%; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+    border-radius: 5%; /* Makes the border circular */
+    border: 1px solid black; /* Example border styling */
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto 10px; /* Center image horizontally and provide space below */
+    box-shadow: 0 .5rem 1rem hsla(44, 41%, 82%, 0.81);;
+
+  }
+  .containerSetter img {
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+    border-radius: 50%; /* Makes the border circular */
+    border: 2px solid black; /* Example border styling */
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .containerSetter button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #ff4b2b; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .containerSetterChangingPass button{
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #ff4b2b; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .containerSetter3 button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #ff4b2b; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .containerSetter hr {
+    border: none;
+    height: 1px; /* Adjust the thickness of the line */
+    background-color: #000; /* Adjust the color of the line */
+    margin: 20px 0; /* Adjust the margin above and below the line */
+  }
+  .containerSetter3 hr {
+    border: none;
+    height: 1px; /* Adjust the thickness of the line */
+    background-color: #000; /* Adjust the color of the line */
+    margin: 20px 0; /* Adjust the margin above and below the line */
+  }
+/* setter.css */
+
+.inputGroup {
+    padding: 20px 0; /* Adjust padding between the horizontal line and input fields */
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    margin-right: 20px; /* Adjust margin between input containers */
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer input {
+    padding: 10px; /* Adjust padding inside the input fields */
+    border: 2px solid #000; /* Example border styling */
+    border-radius: 5px; /* Example border radius */
+    background-color: #fff; /* Example background color */
+}
+
+.inputContainer label {
+    margin-top: 5px; /* Adjust margin between input field and label */
+}
+.updateButton {
+    position: absolute;
+    left: 598px;
+        background-color: #007bff; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.DeleteButton{
+  position: absolute;
+  left: 590px; /* Adjust the distance from the left */
+  background-color: #007bff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+.BackButton{
+    position: absolute;
+    left: 10px; /* Adjust the distance from the left */
+   
+
+}
+
+/* setter.css or shoppage.css */
+
+.form-item {
+    margin-bottom: 10px;
+    /* Add border styles here */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    /* Add label styles here */
+}
+
+.form-data {
+    display: block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Add user data styles here */
+}
+
+/* setter.css or shoppage.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+
+.form-label {
+    margin-right: 20px;
+    width: 151px; /* Adjust the width as needed */
+    text-align: left;
+}
+
+.form-input {
+    border-radius: 10px;
+    padding: 5px;
+}
+

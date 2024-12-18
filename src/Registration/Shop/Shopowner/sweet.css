@@ -1,0 +1,180 @@
+/* Example styles for SweetAlert2 customization */
+.my-swal-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Example: darker overlay */
+  }
+  
+  .my-swal-popup {
+    border-radius: 10px; /* Example: rounded corners */
+    background-color: #f2f2f2; /* Example: light gray background */
+  }
+  
+  .my-swal-header {
+    background-color: #ff5e5e; /* Example: red header background */
+  }
+  
+  .my-swal-title {
+    color: #333333; /* Example: dark title color */
+    font-size: 24px; /* Example: larger font size */
+    font-weight: bold; /* Example: bold font */
+  }
+  
+  .my-swal-close-button {
+    color: #ff5e5e; /* Example: red close button color */
+  }
+  
+  .my-swal-icon {
+    color: #4caf50; /* Example: green icon color */
+  }
+  
+  .my-swal-content {
+    color: #666666; /* Example: content text color */
+  }
+  
+  .my-swal-actions {
+    margin-top: 20px; /* Example: spacing above actions */
+  }
+  
+  .my-swal-confirm-button {
+    background-color: #4caf50; /* Example: green confirm button */
+    color: #ffffff; /* Example: white text color */
+  }
+  
+  .my-swal-cancel-button {
+    background-color: #f44336; /* Example: red cancel button */
+    color: #ffffff; /* Example: white text color */
+  }
+  
+  .my-swal-footer {
+    background-color: #f2f2f2; /* Example: light gray footer */
+    color: #666666; /* Example: footer text color */
+  }
+
+  div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: .3125em;
+    border-radius: .125em;
+    background-color: green;
+}
+
+div:where(.swal2-icon).swal2-success .swal2-success-ring {
+    position: absolute;
+    z-index: 2;
+    top: -0.25em;
+    left: -0.25em;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    border: .25em solid green;
+    border-radius: 50%;
+}
+
+
+
+.footercontact {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  text-align: center;
+  padding: 1rem 0;
+  
+}
+
+.social-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  justify-content: space-between;
+}
+
+.social-text {
+  margin-right: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon i {
+  font-size: 1.5rem;
+  color: "#6C757D"
+}
+
+.links-section {
+  padding: 2rem 0;
+}
+
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.links-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.links-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor:pointer;
+
+}
+
+.links-column p {
+  margin: 0.5rem 0;
+}
+
+.links-column a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/****************Advance Search******************/
+.app-containerAdvance{
+  background-color: #fff;
+    padding: 23px;
+    border-radius: 51px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    flex-direction: column;
+    max-height: 100vh;
+    margin: 58px;
+}
+
+
+.search-advance-product {
+  display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 20px; */
+    justify-items: start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+/****************Advance Search******************/
